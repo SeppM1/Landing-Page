@@ -9,6 +9,7 @@
 .body{
     font-family: 'Roboto', sans-serif;
 }
+/* First section starts here */
 
 .first-section{
     background-color: #1F2937;
@@ -91,4 +92,39 @@ img{
     border: 1px #3882F6;
     border-radius: 10px;
 
+}
+
+/* Second section starts here */
+
+h2{
+   font-size: 36px;
+   font-weight: bolder;
+   color: #1F2937; 
+   text-align: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 24px;
+    gap: 30px;
+    
+}
+
+.box-border{
+    border: 2.5px solid #3882F6;
+    padding: 10px;
+    border-radius: 10px;
+    width: 120px;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.p-second{
+    margin-top: 20px;
+}
+
+.box-blue-msg{
+    text-align: center;
 }
