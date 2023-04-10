@@ -96,6 +96,11 @@ img{
 
 /* Second section starts here */
 
+.second-section{
+    margin-bottom: 100px;
+    height: 300px;
+}
+
 h2{
    font-size: 36px;
    font-weight: bolder;
@@ -118,7 +123,6 @@ h2{
     border-radius: 10px;
     width: 120px;
     height: 100px;
-    justify-content: space-between;
 }
 
 .p-second{
@@ -127,4 +131,33 @@ h2{
 
 .box-blue-msg{
     text-align: center;
+}
+
+
+/* Third section starts here */
+
+.third-section{
+    background-color: #E5E7EB;
+    height: 400px;
+
+}
+
+#inspiring-quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.h3-class{
+    align-self: flex-end;
+    
+    
+}
+.inspiring{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 120px;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
