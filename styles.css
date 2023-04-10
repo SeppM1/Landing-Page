@@ -90,7 +90,7 @@ img{
     width: 90px;
     height: 25px;
     border: 1px #3882F6;
-    border-radius: 10px;
+    border-radius: 5px;
 
 }
 
@@ -146,6 +146,7 @@ h2{
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
+    border-left: 320px;
 }
 
 .h3-class{
@@ -160,4 +161,70 @@ h2{
     padding-top: 120px;
     flex-wrap: wrap;
     flex-direction: column;
+}
+
+/* Forth section starts here */
+
+.forth-section{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.forth-section-box{
+    background-color: #3882F6;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    width: 50%;
+    height: 35%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+
+
+
+
+    
+}
+
+.h4-class{
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.p-forth{
+    color: white;
+    font-size: 18px;
+}
+
+
+
+
+
+.left-box{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.right-box{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.sign-up-forth-section{
+    background-color: #3882F6;
+    width: 90px;
+    color: white;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 5px;
+
 }
